@@ -1,7 +1,7 @@
 package com.locacao.DriveFast.mapper;
 
-import com.locacao.DriveFast.DTO.ClienteRequisicao;
-import com.locacao.DriveFast.DTO.ClienteResposta;
+import com.locacao.DriveFast.DTO.clienteDTO.ClienteRequisicao;
+import com.locacao.DriveFast.DTO.clienteDTO.ClienteResposta;
 import com.locacao.DriveFast.model.Cliente;
 import org.springframework.stereotype.Component;
 

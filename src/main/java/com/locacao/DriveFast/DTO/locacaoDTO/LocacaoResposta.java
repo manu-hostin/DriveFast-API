@@ -1,4 +1,4 @@
-package com.locacao.DriveFast.DTO;
+package com.locacao.DriveFast.DTO.locacaoDTO;
 
 import com.locacao.DriveFast.model.Cliente;
 import com.locacao.DriveFast.model.Veiculo;
@@ -9,7 +9,7 @@ public record LocacaoResposta (
         Long id,
         Integer dias,
         BigDecimal valorTotal,
-        Cliente cliente,
-        Veiculo veiculo
+        String clienteNome,
+        String veiculoNome
 ){
 }

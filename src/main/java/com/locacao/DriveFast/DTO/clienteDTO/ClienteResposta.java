@@ -1,4 +1,4 @@
-package com.locacao.DriveFast.DTO;
+package com.locacao.DriveFast.DTO.clienteDTO;
 
 public record ClienteResposta (
         Long id,

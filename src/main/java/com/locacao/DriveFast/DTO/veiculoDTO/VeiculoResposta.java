@@ -1,4 +1,4 @@
-package com.locacao.DriveFast.DTO;
+package com.locacao.DriveFast.DTO.veiculoDTO;
 
 import java.math.BigDecimal;
 

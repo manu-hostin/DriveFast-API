@@ -1,4 +1,4 @@
-package com.locacao.DriveFast.DTO;
+package com.locacao.DriveFast.DTO.locacaoDTO;
 
 import com.locacao.DriveFast.model.Cliente;
 import com.locacao.DriveFast.model.Veiculo;
@@ -7,8 +7,7 @@ import java.math.BigDecimal;
 
 public record LocacaoRequisicao (
         Integer dias,
-        BigDecimal valorTotal,
-        Cliente cliente,
-        Veiculo veiculo
+        Integer clienteId,
+        Integer veiculoId
 ){
 }
