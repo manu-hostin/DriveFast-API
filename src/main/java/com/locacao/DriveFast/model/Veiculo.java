@@ -33,4 +33,11 @@ public class Veiculo {
 
     private Boolean disponivel = true;
 
+    public Veiculo(String marca, String modelo, String placa, BigDecimal valorDiaria, Boolean disponivel) {
+        this.marca = marca;
+        this.modelo = modelo;
+        this.placa = placa;
+        this.valorDiaria = valorDiaria;
+        this.disponivel = disponivel;
+    }
 }

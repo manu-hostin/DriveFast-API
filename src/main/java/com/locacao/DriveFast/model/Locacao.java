@@ -32,7 +32,12 @@ public class Locacao {
     private Cliente cliente;
 
     @ManyToOne
-    private Veiculo veiculo; 
-    
-    
+    private Veiculo veiculo;
+
+    public Locacao(Integer dias, BigDecimal valorTotal, Cliente cliente, Veiculo veiculo) {
+        this.dias = dias;
+        this.valorTotal = valorTotal;
+        this.cliente = cliente;
+        this.veiculo = veiculo;
+    }
 }

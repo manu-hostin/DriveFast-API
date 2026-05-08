@@ -28,4 +28,9 @@ public class Cliente {
 
     private String email;
 
+    public Cliente(String nome, String cnh, String email) {
+        this.nome = nome;
+        this.cnh = cnh;
+        this.email = email;
+    }
 }
